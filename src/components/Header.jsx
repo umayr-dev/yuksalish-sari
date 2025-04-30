@@ -12,17 +12,19 @@ function Header() {
   };
   return (
     <>
-      <header className={`header ${menuOpen ? "menu-open" : ""}`}
+      <header
+        className={`header ${menuOpen ? "menu-open" : ""}`}
         onClick={(e) => {
           // Agar menyudan tashqaridagi joy bosilsa, menyuni yopish
           if (menuOpen && !e.target.closest(".header-nav")) {
             closeMenu();
           }
-        }}>
+        }}
+      >
         <div className="header-top">
           <div className="header-container">
             <div className="header-social">
-              <a href="#">
+              <a href="#" className="header-social_item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -38,7 +40,7 @@ function Header() {
                 </svg>
               </a>
 
-              <a href="#">
+              <a href="#" className="header-social_item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
@@ -53,7 +55,7 @@ function Header() {
                 </svg>
               </a>
 
-              <a href="#">
+              <a href="#" className="header-social_item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -69,7 +71,7 @@ function Header() {
                 </svg>
               </a>
 
-              <a href="#">
+              <a href="#" className="header-social_item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -85,7 +87,7 @@ function Header() {
                 </svg>
               </a>
 
-              <a href="#">
+              <a href="#" className="header-social_item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -102,7 +104,7 @@ function Header() {
                 </svg>
               </a>
 
-              <a href="#">
+              <a href="#" className="header-social_item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -121,8 +123,7 @@ function Header() {
               </a>
             </div>
             <div className="header-contact">
-              <a href="tel:+998943808061">
-                {" "}
+              <a href="tel:+998943808061" className="header-contact_item">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -139,8 +140,10 @@ function Header() {
                 +998943808061
               </a>
 
-             
-              <a href="mailto:abuqodir0107@gmail.com">
+              <a
+                href="mailto:abuqodir0107@gmail.com"
+                className="header-contact_item"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
@@ -161,18 +164,23 @@ function Header() {
         </div>
         <div className="header-bottom">
           <div className="header-container">
-            <Link to={"/"}>
-              <img className="logo" src="/images/logo-bg.png" width={120} height={80} alt="" />
+            <Link to={"/"} >
+              <div className="logo">
+                <img src="/images/logo-bg.png" width={120} height={80} alt="" />
+              </div>
             </Link>
             <button className="burger-menu" onClick={toggleMenu}>
               {menuOpen ? "x" : "☰"}
             </button>
             <div className={`header-nav ${menuOpen ? "open" : ""}`}>
-            
               <NavLink className="nav-link" to={"/"} onClick={closeMenu}>
                 Bosh Sahifa
               </NavLink>
-              <NavLink className="nav-link" to={"/portfolio"} onClick={closeMenu}>
+              <NavLink
+                className="nav-link"
+                to={"/portfolio"}
+                onClick={closeMenu}
+              >
                 Portfolio
               </NavLink>
               <NavLink className="nav-link" to={"/galeria"} onClick={closeMenu}>
@@ -187,7 +195,11 @@ function Header() {
               <NavLink className="nav-link" to={"/apply"} onClick={closeMenu}>
                 So`rovnoma
               </NavLink>
-              <NavLink className="nav-link" to={"/decision"} onClick={closeMenu}>
+              <NavLink
+                className="nav-link"
+                to={"/decision"}
+                onClick={closeMenu}
+              >
                 Qaror va farmonlar
               </NavLink>
             </div>

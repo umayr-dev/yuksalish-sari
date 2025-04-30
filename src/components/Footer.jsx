@@ -1,17 +1,15 @@
-import "../assets/styles/footer.css"
+import "../assets/styles/footer.css";
 
 function Footer() {
   return (
     <>
-    <footer>
-      <div className="container">
-    <div className="footer">
-      hajdhajshaj
-    </div>
-      </div>
-    </footer>
+      <footer>
+        <div className="container">
+          <div className="footer">f</div>
+        </div>
+      </footer>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
