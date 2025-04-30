@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="container">
     <div className="footer">
-      
+      hajdhajshaj
     </div>
       </div>
     </footer>
