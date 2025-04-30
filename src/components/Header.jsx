@@ -165,12 +165,10 @@ function Header() {
               <img className="logo" src="/images/logo-bg.png" width={120} height={80} alt="" />
             </Link>
             <button className="burger-menu" onClick={toggleMenu}>
-              {menuOpen ? "" : "☰"}
+              {menuOpen ? "x" : "☰"}
             </button>
             <div className={`header-nav ${menuOpen ? "open" : ""}`}>
-            <span className="close-menu" onClick={closeMenu}>
-                ✖
-              </span>
+            
               <NavLink className="nav-link" to={"/"} onClick={closeMenu}>
                 Bosh Sahifa
               </NavLink>
