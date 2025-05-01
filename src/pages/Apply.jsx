@@ -16,7 +16,7 @@ export default function Apply() {
       exit="exit"
       transition={{ duration: 0.5 }}
     >
-      <h1>Apply</h1>
+      <h1>jgsdjgdkfgkd</h1>
     </motion.div>
   );
 }
