@@ -1,0 +1,34 @@
+.profile-row {
+    width: 100%;
+    height: auto;
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.profile-img {
+  width: 40%;
+  height: 440px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.profile-img img{
+    object-fit: cover;
+}
+
+.profile-content {
+  width: 60%;
+}
+
+.profile-content_title {
+  font-size: 42px;
+  line-height: 120%;
+}
+
+.profile-content_subtitle {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  margin-top: 24px;
+  line-height: 120%;
+}
