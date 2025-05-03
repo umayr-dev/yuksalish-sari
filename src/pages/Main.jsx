@@ -7,6 +7,8 @@ import Pages from "./Pages"
 import Apply from "./Apply"
 import Decision from "./Decision"
 import { AnimatePresence } from "framer-motion"
+import Photos from "./Photos"
+import Videos from "./Videos"
 
 function Main() {
   const location = useLocation();
@@ -22,7 +24,8 @@ function Main() {
             <Route path="/pages" element={<Pages/>}/>
             <Route path="/apply" element={<Apply/>}/>
             <Route path="/decision" element={<Decision/>}/>
-
+            <Route path="/galeria/photos" element={<Photos />} />
+        <Route path="/galeria/videos" element={<Videos />} />
         </Routes>
         </AnimatePresence>
     </main>

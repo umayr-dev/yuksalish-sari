@@ -118,11 +118,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section>
+      <section className="yuksalish-sari">
         <div className="container">
-          <div className="-row">
-
-          </div>
+          
         </div>
       </section>
     </motion.div>
