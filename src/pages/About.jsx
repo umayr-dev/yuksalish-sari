@@ -26,7 +26,7 @@ export default function About() {
             <div className="profile-content">
               <h1 className="profile-content_title">Jumakulova Mavludaxon Xosilovna</h1>
               <p className="profile-content_subtitle">
-                Iminova Xurshida Muxtorovna 2021-yildan buyon Andijon davlat
+                {/* Iminova Xurshida Muxtorovna 2021-yildan buyon Andijon davlat
                 pedagogika instituti Pedagogika fakulteti Boshlang’ich ta’lim
                 metodikasi kafedrasida katta o’qituvchi vazifasida ishlab,
                 matematika fanidan kelajak yoshlariga bilim berib kelmoqda U o’z
@@ -43,7 +43,7 @@ export default function About() {
                 yangi avlod darsliklari yuzasidan bir qancha metodik ishlanmalar
                 muallifi. U loyiha doirasida Andijon viloyatidagi 30-umumta’lim
                 maktabi bilan hamkorlikda samarali metodik faoliyat olib
-                bormoqda.
+                bormoqda. */}
               </p>
             </div>
           </div>

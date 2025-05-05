@@ -53,3 +53,22 @@ footer{
         font-size: 8px;
     }
 }
+@media screen and (max-width: 465px) {
+    .footer-title{
+        display: none;
+    }
+    .footer-description span:nth-child(2){
+        display: none;
+    }
+    .footer-images{
+        display: none;
+    }
+    .footer-description{
+        display: flex;
+        width: 100%;
+    }
+    .footer-description span{
+        width: 100%;
+        padding: 30px 0;
+    }
+}

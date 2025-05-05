@@ -1,0 +1,52 @@
+.video-gallery {
+  display: grid;
+  gap: 50px 20px;
+  padding: 20px;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.video-item iframe {
+  width: 400px;
+  height: 250px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.video-item{
+    display: grid;
+}
+
+@media screen and (max-width: 1285px) {
+    .video-gallery{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .video-item {
+        width: 100%;
+        display: flex;
+        justify-content: center; /* Flex orqali gorizontal markazlash */
+        align-items: center; /* Flex orqali vertikal markazlash */
+    }
+
+    .video-item iframe {
+        width: 100%; /* Iframe kengligini moslashtirish */
+        max-width: 400px; /* Maksimal kenglikni belgilash */
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .video-gallery {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center; /* Grid elementlarini gorizontal markazlash */
+    }
+
+    .video-item {
+        width: 100%;
+        display: flex;
+        justify-content: center; /* Flex orqali gorizontal markazlash */
+        align-items: center; /* Flex orqali vertikal markazlash */
+    }
+
+    .video-item iframe {
+        width: 100%; /* Iframe kengligini moslashtirish */
+        max-width: 400px; /* Maksimal kenglikni belgilash */
+    }
+}
