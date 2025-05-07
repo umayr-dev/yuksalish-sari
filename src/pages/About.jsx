@@ -26,24 +26,9 @@ export default function About() {
             <div className="profile-content">
               <h1 className="profile-content_title">Jumakulova Mavludaxon Xosilovna</h1>
               <p className="profile-content_subtitle">
-                {/* Iminova Xurshida Muxtorovna 2021-yildan buyon Andijon davlat
-                pedagogika instituti Pedagogika fakulteti Boshlang’ich ta’lim
-                metodikasi kafedrasida katta o’qituvchi vazifasida ishlab,
-                matematika fanidan kelajak yoshlariga bilim berib kelmoqda U o’z
-                faoliyati davomida 2 ta darslik, 3 ta o’quv qo’llanma, 30 dan
-                ortiq ilmiy maqolalar chop ettirgan. Bundan tashqari, ko’plab
-                tanlovlardagi faol ishtiroki bilan ham ajralib turadi. 2022-yil
-                MDH davlatlari miqyosida o’tkazilgan “Tashabbuskor islohotchi”
-                ko’rik-tanlovida faol ishtirok etib “Tashabbuskor islohotchi”
-                ko’krak nishoni hamda esdalik sovg’alarini qo’lga kiritganligi
-                ham shular jumlasidandir. Andijon davlat pedagogika institutida
-                amalga oshirilayotgan “Yangi avlod darsliklari asosida bo’lajak
-                boshlang’ich sinf o’qituvchilarini tayyorlash metodikasini
-                takomillashtirish” nomli loyiha a’zosi. Ushbu loyiha doirasida
-                yangi avlod darsliklari yuzasidan bir qancha metodik ishlanmalar
-                muallifi. U loyiha doirasida Andijon viloyatidagi 30-umumta’lim
-                maktabi bilan hamkorlikda samarali metodik faoliyat olib
-                bormoqda. */}
+              Jumakulova Mavludaxon Xosilovna o‘z mehnat faoliyatini Andijon shahar 6-umumta’lim maktabida o‘qituvchi lavozimida boshlagan. Hozirda Jumakulova Mavludaxon Xosilovna Andijon davlat pedagogika instituti Pedagogika fakulteti Boshlang‘ich ta’lim kafedrasida faoliyat yuritib, yosh avlodga ta’lim va tarbiya berish ishlarini amalga oshirib kelmoqda.
+Pedagogik faoliyati davomida Jumakulova Mavludaxon Xosilovna tomonidan 1 ta o‘quv qo‘llanma hamda 20 dan ortiq ilmiy maqolalar chop etilgan. 2019-yilda Jumakulova Mavludaxon Xosilovna O‘zbekiston Respublikasi Xalq ta’limi vazirligi tomonidan “Xalq ta’limi a’lochisi” nishoni bilan taqdirlangan. 
+2023-yildan boshlab Andijon davlat universiteti tayanch doktoranti sifatida ilmiy izlanishlarini boshlagan. Uning ilmiy tadqiqotlari o‘quvchilarni ta’lim jarayoniga faol jalb etish masalalariga qaratilgan bo‘lib, ayniqsa rag‘batlantirish metodining samaradorligini o‘rganish asosiy yo‘nalishlaridan biridir.
               </p>
             </div>
           </div>

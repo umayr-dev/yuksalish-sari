@@ -51,11 +51,11 @@ img{
   vertical-align: bottom;
 }
 
-ul,
+/* ul,
 ol,
 li {
   list-style: none;
-}
+} */
 
 .container {
   max-width: 1340px;

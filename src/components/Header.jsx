@@ -217,9 +217,9 @@ function Header() {
               {/* <NavLink className="nav-link" to={"/pages"} onClick={closeMenu}>
                 Sahifalar
               </NavLink> */}
-              <NavLink className="nav-link" to={"/apply"} onClick={closeMenu}>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScc4o_pxbahcVDD6mAKMUxM7jRXAo-4yzw51cSvv7ayT8_3Ag/viewform?usp=dialog" target="blank" className="nav-link" onClick={closeMenu}>
                 So`rovnoma
-              </NavLink>
+              </a>
               <NavLink
                 className="nav-link"
                 to={"/decision"}

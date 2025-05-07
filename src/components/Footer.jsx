@@ -14,38 +14,10 @@ function Footer() {
               </div>
               <div className="footer-description">
                 <span>
-                  Ta’lim jarayonida rag‘batlantirish metodidan foydalanish
-                  o‘quvchilarning o‘quv mashg‘ulotlarida faol ishtirokini,
-                  kognitiv faoliyatini rivojlantirish, maqsadli harakatlarni
-                  amalga oshirish, ijodiy tafakkurni rivojlantirish, individual
-                  ehtiyojlarini qondirish, muvaffaqiyatlarini davomli bo‘lishini
-                  ta’minlaydi.
-                  <br />
-                  <br />
-                  Bo‘lajak pedagoglar rag‘batlantirish usullarini (ma’naviy,
-                  ijtimoiy, individual, jamoaviy shakllarda) to‘g‘ri qo‘llay
-                  olsalar, bu nafaqat o‘quvchilarning hozirgi o‘zlashtirish
-                  darajasini, balki ularning kelajakdagi mustaqil fikrlash,
-                  muammolarni hal qilish va o‘zini baholash kabi ko‘nikmalarini
-                  ham shakllantirishga xizmat qiladi
+                Zamonaviy ta’lim tizimida o‘quvchilarni faollashtirish, ularning mustaqil fikrlashini, ijodkorligini va o‘zini baholash ko‘nikmalarini rivojlantirish dolzarb masalalardan biridir. Bu jarayonda rag‘batlantirish metodining pedagogik ahamiyati alohida o‘rin tutadi. Rag‘bat – bu o‘quvchining ijobiy harakatlarini e’tirof etish, ularni yanada kuchaytirish va rivojlantirishga yo‘naltirilgan ta’sir vositasidir.
                 </span>
                 <span>
-                  Bo‘lajak o‘qituvchilarni rag‘batlantirish metodidan
-                  foydalanishga tayyorlash tizimini takomillashtirishning
-                  pedagogik shart-sharoitlarini aniqlash; Rag‘batlanritish
-                  metodidan foydalanish yuzasidan xorijiy tajribalar talili; Ona
-                  tili va o‘qish savodxonligi fanlari doirasida rag‘batlantirish
-                  metodining mavjud holatini tahlil qilish va bu metodning
-                  o‘quv-metodik ta’minoti orqali ta’lim jarayonini
-                  takomillashtirish usullarini ishlab chiqish; Bo‘lajak
-                  o‘qituvchilarni rag‘batlantirish metodidan foydalanishga
-                  tayyorlash tizimi va mexanizmini takomillashtirish, ta’lim
-                  jarayonida rag‘batlantirish metodining samarali modelini
-                  ishlab chiqish va uning pedagogik amaliyotga joriy
-                  etilishining samaradorligini o‘rganish.
-                  <br />
-                  <br />
-                  Rag‘batlantirish metodi
+                Ushbu sayt pedagogik ta’lim jarayonida rag‘batlantirish metodining o‘rni va ahamiyatini chuqur o‘rganish, bo‘lajak o‘qituvchilarni ushbu metoddan samarali foydalanishga tayyorlash tizimini takomillashtirishga qaratilgan. Sayt orqali ilmiy tadqiqot natijalari, xorijiy tajribalar, o‘quv-metodik materiallar va amaliy tavsiyalar taqdim etiladi.
                 </span>
                 <div className="footer-images">
                   <img src="/images/img1.jpg" width={180} height={180} alt="" />

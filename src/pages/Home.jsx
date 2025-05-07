@@ -89,7 +89,7 @@ export default function Home() {
         <div className="container">
           <div className="about-row">
             <h2 className="about-title">
-              Tadqiqot maqsadi. Bo'lajak o'qituvchilarni rag'batlantirishning
+              Tadqiqot maqsadi. Bo`lajak o`qituvchilarni rag`batlantirishning
               tashkiliy va didaktik tizimidan foydalanishga tayyorlashning
               pedagogik mexanizmlarini takomillashtirishdan iborat.
             </h2>
@@ -118,11 +118,39 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="yuksalish-sari">
+      <section>
         <div className="container">
           
+        <div className="more-info">
+          <div className="more-info__left">
+            <h1>Rag‘batlantirish metodi</h1>
+            <span>
+            Zamonaviy ta’lim tizimida o‘quvchilarni faollashtirish, ularning mustaqil fikrlashini, ijodkorligini va o‘zini baholash ko‘nikmalarini rivojlantirish dolzarb masalalardan biridir. Bu jarayonda rag‘batlantirish metodining pedagogik ahamiyati alohida o‘rin tutadi. Rag‘bat – bu o‘quvchining ijobiy harakatlarini e’tirof etish, ularni yanada kuchaytirish va rivojlantirishga yo‘naltirilgan ta’sir vositasidir.
+            </span>
+
+            <Link className="more-info__link" to={"/about"}>
+            Batafsil:
+            </Link>
+          </div>
+          <div className="more-info__right">
+            <div>
+              <h3>Rag‘batlantirish metodi</h3>
+              <p>Rag‘batlantirish metodi – bu o‘quvchilar faoliyatini faollashtirish, ta’limga nisbatan ijobiy munosabatni shakllantirish va yuqori o‘zlashtirish darajasiga erishish uchun pedagog tomonidan qo‘llaniladigan metodlardan biridir. U quyidagi shakllarda namoyon bo‘ladi:</p>
+            </div>
+            <div>
+              <ul className="list">
+                <li>Ma’naviy rag‘bat: maqtov, e’tirof, darsda ishtirokini qadrlash;</li>
+                <li>Ijtimoiy rag‘bat: jamoa oldida faxrlash, yetakchi sifatida ko‘rsatish;</li>
+                <li>Moddiy rag‘bat: sovg‘a, sertifikat, baho;</li>
+                <li>Individual rag‘bat: shaxsiy qiziqish va ehtiyojlarini hisobga olib beriladigan rag‘batlar.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
         </div>
       </section>
+
     </motion.div>
   );
 }
