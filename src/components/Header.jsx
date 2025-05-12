@@ -220,13 +220,13 @@ function Header() {
               <a href="https://docs.google.com/forms/d/e/1FAIpQLScc4o_pxbahcVDD6mAKMUxM7jRXAo-4yzw51cSvv7ayT8_3Ag/viewform?usp=dialog" target="blank" className="nav-link" onClick={closeMenu}>
                 So`rovnoma
               </a>
-              <NavLink
+              {/* <NavLink
                 className="nav-link"
                 to={"/decision"}
                 onClick={closeMenu}
               >
                 Qaror va farmonlar
-              </NavLink>
+              </NavLink> */}
             </div>
           </div>
         </div>

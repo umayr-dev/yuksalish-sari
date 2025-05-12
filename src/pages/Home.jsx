@@ -29,9 +29,9 @@ export default function Home() {
                 etish, faoliyatiga turtki berish orqali rejalashtirilgan ta’lim
                 natijasiga erishish yo‘lidir.
               </p>
-              <Link to={"/info"} className="banner-text_btn">
+              {/* <Link to={"/info"} className="banner-text_btn">
                 Batafsil
-              </Link>
+              </Link> */}
             </div>
             <div className="banner-img">
               <img
@@ -131,7 +131,7 @@ export default function Home() {
             Zamonaviy ta’lim tizimida o‘quvchilarni faollashtirish, ularning mustaqil fikrlashini, ijodkorligini va o‘zini baholash ko‘nikmalarini rivojlantirish dolzarb masalalardan biridir. Bu jarayonda rag‘batlantirish metodining pedagogik ahamiyati alohida o‘rin tutadi. Rag‘bat – bu o‘quvchining ijobiy harakatlarini e’tirof etish, ularni yanada kuchaytirish va rivojlantirishga yo‘naltirilgan ta’sir vositasidir.
             </span>
 
-            <Link className="more-info__link" to={"/info"}>
+            <Link className="more-info__link" to={"/resurs"}>
             Batafsil:
             </Link>
           </div>
