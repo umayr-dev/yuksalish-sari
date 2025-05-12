@@ -19,6 +19,18 @@ export default function Portfolio() {
       title: "ONA TILI-O‘QISH SAVODXONLIGI VA UNI O‘QITISH METODIKASI",
       author: "M.X.JUMAKULOVA",
       pdfUrl: "/M.Jumakulova. o'quv qo'llanma.pdf"
+    },{
+      id: 2,
+      image: "/images/book1.jpg",
+      title: "",
+      author: "M.X.JUMAKULOVA",
+      pdfUrl: "/rag'batlantirish.pdf"
+    },{
+      id: 3,
+      image: "/images/book1.jpg",
+      title: "",
+      author: "M.X.JUMAKULOVA",
+      pdfUrl: "/Mavludaxon Xosilovna. slayd for muhokama.pdf"
     }
   ];
 
@@ -50,6 +62,7 @@ export default function Portfolio() {
               </div>
             ))}
           </div>
+          <a className="maqola" href="https://scholar.googleusercontent.com/scholar?q=cache:e1r3w4cQBAsJ:scholar.google.com/+Mavludaxon+Jumakulova&hl=ru&as_sdt=0,5">Ko`proq maqolalar o`qish... </a>
         </div>
       </div>
 

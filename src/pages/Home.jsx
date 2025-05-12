@@ -131,7 +131,7 @@ export default function Home() {
             Zamonaviy ta’lim tizimida o‘quvchilarni faollashtirish, ularning mustaqil fikrlashini, ijodkorligini va o‘zini baholash ko‘nikmalarini rivojlantirish dolzarb masalalardan biridir. Bu jarayonda rag‘batlantirish metodining pedagogik ahamiyati alohida o‘rin tutadi. Rag‘bat – bu o‘quvchining ijobiy harakatlarini e’tirof etish, ularni yanada kuchaytirish va rivojlantirishga yo‘naltirilgan ta’sir vositasidir.
             </span>
 
-            <Link className="more-info__link" to={"/resurs"}>
+            <Link className="more-info__link" to={"/portfolio"}>
             Batafsil:
             </Link>
           </div>

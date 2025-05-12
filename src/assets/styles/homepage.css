@@ -264,7 +264,12 @@
 .page-content span{
   font-size: 12px;
 }
-
+.maqola{
+  display: flex;
+  margin: 50px 0;
+  padding: 30px 5px;
+  color: royalblue;
+}
 @media (max-width: 1024px) {
   .banner-text {
     gap: 24px;

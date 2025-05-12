@@ -10,7 +10,7 @@ import { AnimatePresence } from "framer-motion"
 import Photos from "./Photos"
 import Videos from "./Videos"
 import Info from "./Info"
-import Resurs from "./Resurs"
+// import Resurs from "./Resurs"
 
 function Main() {
   const location = useLocation();
@@ -26,7 +26,7 @@ function Main() {
             <Route path="/pages" element={<Pages/>}/>
             <Route path="/apply" element={<Apply/>}/>
             <Route path="/info" element={<Info/>}/>
-            <Route path="/resurs" element={<Resurs/>}/>
+            {/* <Route path="/resurs" element={<Resurs/>}/> */}
             <Route path="/decision" element={<Decision/>}/>
             <Route path="/galeria/photos" element={<Photos />} />
         <Route path="/galeria/videos" element={<Videos />} />
