@@ -1,6 +1,67 @@
+import { useState, useEffect } from "react";
 import "../assets/styles/footer.css";
 
 function Footer() {
+  const [visitorCount, setVisitorCount] = useState(0);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const addVisitor = async () => {
+      try {
+        setLoading(true);
+        // Yangi tashrif qo'shish
+        await fetch('https://4e439b85aa8b8540.mokky.dev/users-count', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            timestamp: new Date().toISOString(),
+            visitorId: localStorage.getItem('visitorId')
+          })
+        });
+
+        // Umumiy tashrif buyuruvchilar sonini olish
+        const response = await fetch('https://4e439b85aa8b8540.mokky.dev/users-count');
+        const data = await response.json();
+        
+        if (Array.isArray(data)) {
+          // Unique visitorId larni hisoblash
+          const uniqueVisitors = new Set(data.map(item => item.visitorId)).size;
+          setVisitorCount(uniqueVisitors);
+        } else {
+          console.error('API dan kutilmagan format:', data);
+          setVisitorCount(0);
+        }
+      } catch (error) {
+        console.error('Xatolik:', error);
+        setVisitorCount(0);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    // VisitorId tekshirish
+    if (!localStorage.getItem('visitorId')) {
+      // Yangi foydalanuvchi uchun ID yaratish
+      const newVisitorId = `visitor-${Date.now()}-${Math.random().toString(36).substr(2, 9)}`;
+      localStorage.setItem('visitorId', newVisitorId);
+      addVisitor();
+    } else {
+      // Faqat tashrif buyuruvchilar sonini olish
+      fetch('https://4e439b85aa8b8540.mokky.dev/users-count')
+        .then(res => res.json())
+        .then(data => {
+          if (Array.isArray(data)) {
+            const uniqueVisitors = new Set(data.map(item => item.visitorId)).size;
+            setVisitorCount(uniqueVisitors);
+          }
+        })
+        .catch(error => console.error('Xatolik:', error))
+        .finally(() => setLoading(false));
+    }
+  }, []);
+
   return (
     <>
       <footer>
@@ -28,7 +89,12 @@ function Footer() {
               </div>
             </div>
             <div className="footer-bottom">
-              <p>© {2025} Barcha huquqlar himoyalangan..</p>
+              <div className="footer-stats">
+                <p>
+                  Sayt tashrif buyuruvchilari: {loading ? 'Yuklanmoqda...' : visitorCount}
+                </p>
+                <p>© {new Date().getFullYear()} Barcha huquqlar himoyalangan.</p>
+              </div>
             </div>
           </div>
         </div>
